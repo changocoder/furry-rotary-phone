@@ -2,3 +2,5 @@ fastapi
 uvicorn[standard]
 pytest
 coverage
+SQLAlchemy
+flake8

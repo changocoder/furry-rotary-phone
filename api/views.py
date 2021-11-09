@@ -1,7 +1,5 @@
 from typing import Optional
-from fastapi import FastAPI
-
-app = FastAPI()
+from api.app import app
 
 
 @app.get("/")
