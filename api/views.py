@@ -2,7 +2,7 @@ from typing import Optional
 from api.app import app
 
 
-@app.get("/")
+@app.get("/root")
 def read_root():
     return {"Hello": "World"}
 
