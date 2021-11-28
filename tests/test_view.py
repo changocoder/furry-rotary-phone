@@ -21,5 +21,5 @@ def test_items(api_client):
     assert response.status_code == 200
     assert response.json() == {
         "item_id": 1,
-        "q": "sarasa",
+        "q": "sarasasa",
     }
